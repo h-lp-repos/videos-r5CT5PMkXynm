@@ -1,0 +1,38 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.pytest_cache
+*.sqlite3
+mlflow.db
+*.log
+*.egg-info/
+.venv/
+.venv
+venv/
+env/
+.ENV/
+.env
+*.env
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Packages
+dist/
+build/
+
+# Misc
+htmlcov/
+
