@@ -1,2 +1,11 @@
-# Guion de apoyo
-Este espacio reserva el lugar para un script de voz breve que acompañe cada slide. Mantén los timestamps listos para la edición final.
+# Script para mostrar en pantalla durante la grabación
+
+1. `python -m venv .venv`
+2. `source .venv/bin/activate`  (en Windows PowerShell usar `.venv\Scripts\Activate.ps1`).
+3. `pip install --upgrade pip`
+4. `pip install -r requirements.txt`
+5. `mlflow --version`
+6. `mlflow server --backend-store-uri sqlite:///mlflow.db --port 5000`
+7. `python videos/video-03-logging-mlflow-con-sklearn/code/train.py --n-estimators 20 --max-depth 5`
+8. `python -m mlflow ui --backend-store-uri sqlite:///mlflow.db --port 5000` (alternativa para abrir UI si no se usa `mlflow server`).
+

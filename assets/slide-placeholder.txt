@@ -1,2 +1,10 @@
-# Slide Placeholder
-Este archivo sugiere la estructura de slides para la grabación. Reemplaza este texto con la versión definitiva cuando el contenido esté listo.
+# Referencia rápida de slides para overlays
+
+1. Título: "Lección 1 — Introducción a Despliegue y MLOps" + agenda breve (Setup, Logging, UI).
+2. Comando: `pip install -r requirements.txt` (con resaltado de versiones fijas).
+3. Captura: `mlflow --version` y `mlflow server --backend-store-uri sqlite:///mlflow.db --port 5000` en terminal.
+4. UI: lista de experimentos y runs ordenados por `accuracy`.
+5. Código: fragmento del bloque de MLflow en `train.py` con `mlflow.log_param`, `mlflow.log_metric`, `mlflow.sklearn.log_model`.
+6. Checkpoint: `CHECKPOINT 2: mlflow.db existe con los runs generados`.
+7. Mini ejercicio: pregunta de reflexión con el comando `mlflow --version` y `http://localhost:5000`.
+

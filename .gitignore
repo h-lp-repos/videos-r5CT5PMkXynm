@@ -37,3 +37,7 @@ build/
 # Misc
 htmlcov/
 
+# Video artifacts
+videos/video-*/.venv/
+videos/video-*/mlflow.db
+videos/video-*/mlruns/
