@@ -1,0 +1,26 @@
+name: Validate video folders
+
+on:
+  push:
+    paths:
+      - 'videos/**'
+  pull_request:
+    paths:
+      - 'videos/**'
+
+jobs:
+  validate:
+    name: Validar estructura de videos
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Asegurar permisos de script
+        run: |
+          chmod +x scripts/validate-videos.sh
+
+      - name: Ejecutar validación
+        run: bash scripts/validate-videos.sh
+
