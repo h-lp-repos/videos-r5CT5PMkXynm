@@ -28,6 +28,7 @@ Thumbs.db
 
 # Jupyter
 .ipynb_checkpoints/
+examples/models/
 
 # Packages
 dist/
