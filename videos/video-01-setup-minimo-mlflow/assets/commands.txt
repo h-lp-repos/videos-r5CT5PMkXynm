@@ -1,0 +1,8 @@
+# Comandos destacados para mostrar
+python -m venv .venv
+source .venv/bin/activate  # o .venv\Scripts\Activate.ps1
+pip install -r ../../requirements.txt
+mlflow --version
+mlflow server --backend-store-uri sqlite:///mlflow.db --port 5000
+python code/status.py
+
