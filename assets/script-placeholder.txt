@@ -1,0 +1,2 @@
+# Guion de apoyo
+Este espacio reserva el lugar para un script de voz breve que acompañe cada slide. Mantén los timestamps listos para la edición final.
